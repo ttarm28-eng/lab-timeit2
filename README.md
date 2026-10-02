@@ -302,11 +302,11 @@ If you get a stack overflow, then put `---` in the table.
 
 |                            | `array`  | `list`  | `tuple`     | `deque`       |
 | -------------------------- | ---------| --------|------------ | ------------- |
-| `sequential_search_itr`    |4.66 msec |960 usec |957 usec     |960 usec       |
-| `sequential_search_itr2`   |7.45 msec |2.14 msec|2.18 msec    |2.19 msec      |
+| `sequential_search_itr`    |4.66 msec |960 usec |957 usec     |1.01 msec      |
+| `sequential_search_itr2`   |7.45 msec |2.14 msec|2.18 msec    |107 msec       |
 | `sequential_search_rec`    |Overflow  |Overflow |Overflow     |Overflow       |
-| `binary_search_itr`        |6.35 usec |1.81 usec|1.84 usec    |1.84 usec      |
-| `binary_search_rec`        |7.19 usec |2.8 usec |2.76 usec    |2.76 usec      |
+| `binary_search_itr`        |6.35 usec |1.81 usec|1.84 usec    |168 usec       |
+| `binary_search_rec`        |7.19 usec |2.8 usec |2.76 usec    |169 usec       |
 | `binary_search_rec2`       |6.16 usec |394 usec |413 usec     |Overflow       |
 
 You should notice that:
